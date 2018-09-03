@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle arduatom",
+        "command": "arduatom:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "arduatom",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "arduatom:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
