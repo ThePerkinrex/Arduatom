@@ -1,0 +1,22 @@
+{
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Atomino",
+          "submenu": [
+            {
+              "label": "Verify",
+              "command": "atomino:verify"
+            },
+            {
+              "label": "Upload",
+              "command": "atomino:upload"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

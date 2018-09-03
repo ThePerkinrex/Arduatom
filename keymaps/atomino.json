@@ -1,0 +1,6 @@
+{
+  "atom-workspace": {
+    "ctrl-alt-v": "atomino:verify",
+    "ctrl-alt-u": "atomino:upload"
+  }
+}
