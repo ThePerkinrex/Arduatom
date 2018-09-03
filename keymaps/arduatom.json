@@ -1,5 +1,6 @@
 {
   "atom-workspace": {
-    "ctrl-alt-o": "arduatom:toggle"
+    "ctrl-alt-v": "arduatom:verify",
+    "ctrl-alt-u": "arduatom:upload"
   }
 }

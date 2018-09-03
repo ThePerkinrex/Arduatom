@@ -6,9 +6,9 @@
   "keywords": [
   ],
   "activationCommands": {
-    "atom-workspace": "arduatom:toggle"
+    "atom-workspace": ["arduatom:verify","arduatom:upload"]
   },
-  "repository": "https://github.com/atom/arduatom",
+  "repository": "https://github.com/theperkinrex/arduatom",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"

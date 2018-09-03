@@ -1,22 +1,19 @@
 {
-  "context-menu": {
-    "atom-text-editor": [
-      {
-        "label": "Toggle arduatom",
-        "command": "arduatom:toggle"
-      }
-    ]
-  },
+
   "menu": [
     {
       "label": "Packages",
       "submenu": [
         {
-          "label": "arduatom",
+          "label": "Arduatom",
           "submenu": [
             {
-              "label": "Toggle",
-              "command": "arduatom:toggle"
+              "label": "Verify",
+              "command": "arduatom:verify"
+            },
+            {
+              "label": "Upload",
+              "command": "arduatom:upload"
             }
           ]
         }
