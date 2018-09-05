@@ -8,12 +8,8 @@
           "label": "Arduatom",
           "submenu": [
             {
-              "label": "Verify",
-              "command": "arduatom:verify"
-            },
-            {
-              "label": "Upload",
-              "command": "arduatom:upload"
+              "label": "New",
+              "command": "arduatom:new"
             }
           ]
         }

@@ -5,8 +5,12 @@
   "description": "A short description of your package",
   "keywords": [
   ],
-  "activationCommands": {
-    "atom-workspace": ["arduatom:verify","arduatom:upload"]
+  "consumedServices": {
+    "status-bar": {
+      "versions": {
+        "^1.0.0": "consumeStatusBar"
+      }
+    }
   },
   "repository": "https://github.com/theperkinrex/arduatom",
   "license": "MIT",
